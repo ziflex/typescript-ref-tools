@@ -10,7 +10,7 @@ $ npm install --save typescript-ref-tools
 ## Features
 
 * Generates 'references.ts'
-* Append reference of 'references.ts' to '.ts' files.
+* Appends reference of 'references.ts' to '.ts' files.
 
 ## Usage
 
