@@ -1,5 +1,5 @@
 {
-  "name": "typescript-references",
+  "name": "typescript-ref-tools",
   "version": "0.1.0",
   "description": "Utility tool for TypeScript references.",
   "main": "index.js",
