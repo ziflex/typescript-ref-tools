@@ -1,10 +1,10 @@
-> Utility tool for TypeScript references. 
+Utility tool for TypeScript references. 
 
 
 ## Install
 
 ```sh
-$ npm install --save typescript-references
+$ npm install --save typescript-ref-tools
 ```
 
 ## Features
@@ -45,4 +45,4 @@ The list of file names without extension separated by comma.
 
 ## License
 
-MIT © ziflex
+MIT Â© ziflex
