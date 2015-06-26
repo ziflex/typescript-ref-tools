@@ -4,5 +4,5 @@ var _ = require('lodash');
 var run = require('./lib');
 
 run(_.merge({
-    sort: !_.isEmpty(argv.sort) ? _.indexBy(argv.sort.split(',')) : null
+    sort: !_.isEmpty(argv.sort) ? _(argv.sort.split(',')).map(function(f){return f.trim()}).indexBy().value() : null
 }, argv));

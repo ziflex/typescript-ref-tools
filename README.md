@@ -15,14 +15,14 @@ $ npm install --save typescript-ref-tools
 ## Usage
 
 ```sh
-node index.js --action generate --dir app/src --references app/types/references.ts --sort App,Log
+node index.js --action generate --dir 'app/src' --ref 'app/types/references.ts' --sort App,Log
 ```
 
 Will generate the list of references in specific order.
 
 
 ```sh
-node index.js --action update --dir app/src --references app/types/references.ts 
+node index.js --action update --dir 'app/src' --ref 'app/types/references.ts'
 ```
 
 Will update all ```.ts``` files in ```app/src``` by adding reference to ```app/types/references.ts```
@@ -33,7 +33,7 @@ Will update all ```.ts``` files in ```app/src``` by adding reference to ```app/t
 
 Target directory.
 
-### --references
+### --ref
 
 Output file with references.
 
@@ -41,7 +41,7 @@ Output file with references.
 
 Sort generated references by passed values. 
 
-The list of file names without extension separated by comma.
+The list of file names separated by comma.
 
 ## License
 
