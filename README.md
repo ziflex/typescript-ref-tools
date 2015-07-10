@@ -1,5 +1,6 @@
-Utility tool for TypeScript references. 
-
+# typescript-ref-tools
+Utility tool for TypeScript references.
+[![npm version](https://badge.fury.io/js/typescript-ref-tools.svg)](https://www.npmjs.com/package/typescript-ref-tools)
 
 ## Install
 
